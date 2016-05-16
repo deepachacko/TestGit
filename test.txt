@@ -1,1 +1,20 @@
-Hello Deepa
+GitHub Notes: stage, commit, save
+
+git is similar to TFS, VSS (deprecated), mercurial
+
+git init --> to initialize. need to do this only once
+notepad test.txt --> opens a "new" notepad file with this filename
+
+git add test.txt --> to add one single file to stage
+git add . --> all files get sent to stage
+
+git status --> to get status
+git commit -m"message" --> m is for message
+
+press up arrow to get prior commands
+
+Log on to https://github.com/deepachacko/TestGit
+
+To push to server
+git remote add origin https://github.com/deepachacko/TestGit.git
+git push -u origin master
